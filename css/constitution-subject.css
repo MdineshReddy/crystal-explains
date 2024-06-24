@@ -1,0 +1,224 @@
+:root {
+    --div-background-color: #fff;
+    --body-background-color: #e9e9e9;
+    --header-text-shadow-color: #262f31;
+    --body-text-color: #333;
+    --box-shadow: #aaaaaa;
+    --card-background: #333;
+    --card-text: #e9e9e9;
+  }
+  
+  .goup i {
+    color: hsl(337, 84%, 57%);
+    font-size: 2rem;
+    position: fixed;
+    z-index: 1;
+    bottom: 30px;
+    right: 20px;
+  }
+  
+  .subject-content-container {
+    padding: 0 10px;
+    margin: 20px auto;
+  }
+  .subject-content-container .title {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .subject-content-container .title h3 {
+    color: brown;
+  }
+  
+  .subject-content-container .subject-underline {
+    width: 150px;
+    height: 5px;
+    margin: 0 auto;
+    background-color: rgb(172, 94, 21);
+  }
+  
+  .subject-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 7fr 2fr;
+    column-gap: 20px;
+  }
+  
+  .links-container-back {
+    width: 100%;
+    background-color: var(--div-background-color);
+    padding: 15px 5px;
+    min-width: 300px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .links-container h4 {
+    text-align: center;
+  }
+  
+  .article-links .art-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #333;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .article-links a {
+    width: 100%;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: var(--body-text-color);
+  }
+  
+  .links-container li {
+    cursor: pointer;
+  }
+  
+  .article-links a {
+    display: block;
+    width: 100%;
+  }
+  
+  .framework-ul-container {
+    overflow: hidden;
+    height: 0;
+    transition: all 0.5s linear;
+  }
+  
+  .article-links li:last-child {
+    border-bottom: 0;
+  }
+  
+  .framework-icon {
+    transition: 0.5s all linear;
+  }
+  
+  .framework-icon-active {
+    transform: rotate(180deg);
+  }
+  
+  .framework-ul li {
+    border-bottom: 1px solid #333;
+  }
+  
+  .article-links li:hover {
+    background-color: rgb(187, 180, 180);
+  }
+  
+  .central-government-ul-container {
+    overflow: hidden;
+    height: 0;
+    transition: all 0.5s linear;
+  }
+  
+  .central-government-icon {
+    transition: 0.5s all linear;
+  }
+  
+  .central-government-active {
+    transform: rotate(180deg);
+  }
+  
+  .central-government-ul li {
+    border-bottom: 1px solid #333;
+  }
+  
+  .state-government-ul-container {
+    overflow: hidden;
+    height: 0;
+    transition: all 0.5s linear;
+  }
+  
+  .state-government-icon {
+    transition: 0.5s all linear;
+  }
+  
+  .state-government-active {
+    transform: rotate(180deg);
+  }
+  .state-government-ul li {
+    border-bottom: 1px solid #333;
+  }
+  
+  .local-government-ul-container {
+    overflow: hidden;
+    height: 0;
+    transition: all 0.5s linear;
+  }
+  
+  .local-government-icon {
+    transition: 0.5s all linear;
+  }
+  
+  .local-government-active {
+    transform: rotate(180deg);
+  }
+  .local-government-ul li {
+    border-bottom: 1px solid #333;
+  }
+  
+  .const-nonconst-ul-container {
+    overflow: hidden;
+    height: 0;
+    transition: all 0.5s linear;
+  }
+  
+  .const-nonconst-icon {
+    transition: 0.5s all linear;
+  }
+  
+  .const-nonconst-active {
+    transform: rotate(180deg);
+  }
+  .const-nonconst-ul li {
+    border-bottom: 1px solid #333;
+  }
+  
+  .miscallaneous-ul-container {
+    overflow: hidden;
+    height: 0;
+    transition: all 0.5s linear;
+  }
+  
+  .miscallaneous-icon {
+    transition: 0.5s all linear;
+  }
+  
+  .miscallaneous-active {
+    transform: rotate(180deg);
+  }
+  .miscallaneous-ul li {
+    border-bottom: 1px solid #333;
+  }
+  
+  .article-container {
+    background-color: var(--div-background-color);
+    padding: 5px 5px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .add-container {
+    background-color: var(--div-background-color);
+    padding: 15px 5px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  @media screen and (max-width: 992px) {
+    .subject-grid {
+      display: block;
+    }
+  
+    .add-container {
+      display: none;
+    }
+  }
+  

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="Keywords"
+      content="crystal explains, material, notes, competitive exams, read for fun"
+    />
+
+    <meta
+      name="Description"
+      content="A one stop destination to well organized and easy to understand Material required to ace any competitive exams or just read for fun."
+    />
+    
+    <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+    <title>Crystal Explains | Subject</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+    <script src="./javascript/theme.js"></script>
+  </head>
+  <body>
+    <!-- Navigation -->
+
+    <nav>
+      <div class="nav-center">
+        <!-- nav header -->
+        <div class="nav-header">
+          <h3>
+            <a href='/'>Crystal <span>Explains</span></a>
+          </h3>
+          <button class="nav-toggle">
+            <i id="subject-menu-icon" class="fas fa-bars"></i>
+          </button>
+        </div>
+        <!-- links -->
+        <ul class="links">
+          <li>
+            <a href='/'>Home</a>
+          </li>
+          <li>
+            <a class='active' href='/subjects.html'>Subjects</a>
+          </li>
+          <!-- <li>
+            <a href="./store.html">Store</a>
+          </li> -->
+          <li>
+            <a href='/aboutus.html'>About Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Content -->
+    <div class="content-container">
+      <h2 class="subject-header">Subjects</h2>
+      <div class="quote-div">
+        <p id="quote">
+          "Live as if you were to die tomorrow. Learn as if you were to live
+          forever."
+        </p>
+        <p id="quoter">– Mahatma Gandhi</p>
+      </div>
+
+      <div class="content">
+        <div class="item" onclick="navigate('indian_history')">
+          <div class="img">
+            <img src="./images/home/taj_mahal.jpg" alt="Taj Mahal" />
+          </div>
+          <div class="text">
+            <h4>Indian History</h4>
+            <h4>24 Chapters</h4>
+          </div>
+        </div>
+        <div class="item" onclick="navigate('world_history')">
+          <div class="img">
+            <img src="./images/home/worldhistory.jpg" alt="Colloseum, Italy" />
+          </div>
+          <div class="text">
+            <h4>World History</h4>
+            <h4>8 Chapters</h4>
+          </div>
+        </div>
+
+        <div class="item" onclick="navigate('indian_constitution')">
+          <div class="img">
+            <img src="./images/home/constitution.jpg" alt="constitution" />
+          </div>
+          <div class="text">
+            <h4>Indian Constitution</h4>
+            <h4>35 Chapters</h4>
+          </div>
+        </div>
+        <div class="item" onclick="navigate('physical_geography')">
+          <div class="img">
+            <img src="./images/home/galaxy.jpg" alt="galaxy" />
+          </div>
+          <div class="text">
+            <h4>Physical Geography</h4>
+            <h4>23 Chapters</h4>
+          </div>
+        </div>
+
+        <div class="item" onclick="navigate('indian_geography')">
+          <div class="img">
+            <img src="./images/home/munnar.jpg" alt="Munnar, Kerala" />
+          </div>
+          <div class="text">
+            <h4>Indian Geography</h4>
+            <h4>13 Chapters</h4>
+          </div>
+        </div>
+        <div class="item" onclick="navigate('indian_economy')">
+          <div class="img">
+            <img src="./images/home/indian_economy.jpg" alt="Indian Economy" />
+          </div>
+          <div class="text">
+            <h4>Economics and Indian Economy</h4>
+            <h4>20 Chapters</h4>
+          </div>
+        </div>
+
+        <div class="item" onclick="navigate('physics')" style="display: none">
+          <div class="img">
+            <img src="./images/home/physics.jpg" alt="Bulb" />
+          </div>
+          <div class="text">
+            <h4>Physics</h4>
+            <h4>0 Chapters</h4>
+          </div>
+        </div>
+
+        <div class="item" onclick="navigate('chemistry')" style="display: none">
+          <div class="img">
+            <img src="./images/home/chemistry.jpg" alt="chemistry" />
+          </div>
+          <div class="text">
+            <h4>Chemistry</h4>
+            <h4>0 Chapters</h4>
+          </div>
+        </div>
+        <div class="item" onclick="navigate('Biology')" style="display: none">
+          <div class="img">
+            <img src="./images/home/biology.jpg" alt="Biology" />
+          </div>
+          <div class="text">
+            <h4>Biology</h4>
+            <h4>0 Chapters</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer">
+        <h3>
+          <a href='/'>Crystal <span>Explains</span></a>
+        </h3>
+        <a href="mailto:crystalexplains@gmail.com">crystalexplains@gmail.com</a>
+      </div>
+    </footer>
+    <script src="./javascript/navigate.js"></script>
+    <script src="./javascript/quote.js"></script>
+    <script src="./javascript/top-menu.js"></script>
+  </body>
+</html>

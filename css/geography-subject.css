@@ -1,0 +1,214 @@
+:root {
+    --div-background-color: #fff;
+    --body-background-color: #e9e9e9;
+    --header-text-shadow-color: #262f31;
+    --body-text-color: #333;
+    --box-shadow: #aaaaaa;
+    --card-background: #333;
+    --card-text: #e9e9e9;
+  }
+  
+  .goup i {
+    color: hsl(337, 84%, 57%);
+    font-size: 2rem;
+    position: fixed;
+    z-index: 1;
+    bottom: 30px;
+    right: 20px;
+  }
+  
+  .subject-content-container {
+    padding: 0 10px;
+    margin: 20px auto;
+  }
+  .subject-content-container .title {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .subject-content-container .title h3 {
+    color: brown;
+  }
+  
+  .subject-content-container .subject-underline {
+    width: 150px;
+    height: 5px;
+    margin: 0 auto;
+    background-color: rgb(21, 66, 172);
+  }
+  
+  .subject-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 7fr 2fr;
+    column-gap: 20px;
+  }
+  
+  .links-container-back {
+    width: 100%;
+    background-color: var(--div-background-color);
+    min-width: 300px;
+    padding: 15px 5px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .links-container h4 {
+    text-align: center;
+  }
+  
+  .article-links .art-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #333;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .article-links a {
+    width: 100%;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: var(--body-text-color);
+  }
+  
+  .article-links a {
+    display: block;
+    width: 100%;
+  }
+  
+  .geomorphology-ul-container {
+    overflow: hidden;
+    height: 0;
+    transition: all 0.5s linear;
+  }
+  
+  .links-container li {
+    cursor: pointer;
+  }
+  
+  .article-links li:last-child {
+    border-bottom: 0;
+  }
+  
+  .geomorphology-icon {
+    transition: 0.5s all linear;
+  }
+  
+  .geomorphology-icon-active {
+    transform: rotate(180deg);
+  }
+  
+  .geomorphology-ul li {
+    border-bottom: 1px solid #333;
+  }
+  
+  .article-links li:hover {
+    background-color: rgb(187, 180, 180);
+  }
+  
+  .climatology-ul-container {
+    overflow: hidden;
+    height: 0;
+    transition: all 0.5s linear;
+  }
+  
+  .climatology-icon {
+    transition: 0.5s all linear;
+  }
+  
+  .climatology-icon-active {
+    transform: rotate(180deg);
+  }
+  
+  .climatology-ul li {
+    border-bottom: 1px solid #333;
+  }
+  
+  .oceanography-ul-container {
+    overflow: hidden;
+    height: 0;
+    transition: all 0.5s linear;
+  }
+  
+  .oceanography-icon {
+    transition: 0.5s all linear;
+  }
+  
+  .oceanography-icon-active {
+    transform: rotate(180deg);
+  }
+  .oceanography-ul li {
+    border-bottom: 1px solid #333;
+  }
+  
+  .biogeography-ul-container {
+    overflow: hidden;
+    height: 0;
+    transition: all 0.5s linear;
+  }
+  
+  .biogeography-icon {
+    transition: 0.5s all linear;
+  }
+  
+  .biogeography-icon-active {
+    transform: rotate(180deg);
+  }
+  .biogeography-ul li {
+    border-bottom: 1px solid #333;
+  }
+  
+  .article-container {
+    background-color: var(--div-background-color);
+    padding: 5px 5px;
+    border-radius: 5px;
+  
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .add-container {
+    background-color: var(--div-background-color);
+    padding: 15px 5px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .world_history_ul a {
+    border: 1px solid var(--card-background);
+    margin: 2px 0;
+  }
+  
+  .ind-geo-ul-container {
+    overflow: hidden;
+    height: 0;
+    transition: all 0.5s linear;
+  }
+  
+  .ind-geo-icon {
+    transition: 0.5s all linear;
+  }
+  
+  .ind-geo-icon-active {
+    transform: rotate(180deg);
+  }
+  
+  .ind-geo-ul li {
+    border-bottom: 1px solid #333;
+  }
+  
+  @media screen and (max-width: 992px) {
+    .subject-grid {
+      display: block;
+    }
+  
+    .add-container {
+      display: none;
+    }
+  }
+  

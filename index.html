@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="Keywords"
+      content="crystal explains, material, notes, competitive exams, read for fun"
+    /> 
+
+    <meta
+      name="Description"
+      content="A one stop destination to well organized and easy to understand Material required to ace any competitive exams or just read for fun."
+    />
+
+    <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+    <title>Crystal Explains</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/home.css" />
+    <script defer src="./javascript/theme.js"></script>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-center">
+        <!-- nav header -->
+        <div class="nav-header">
+          <h3>
+            <a href='/'>Crystal <span>Explains</span></a>
+          </h3>
+          <button class="nav-toggle">
+            <i id="subject-menu-icon" class="fas fa-bars"></i>
+          </button>
+        </div>
+        <!-- links -->
+        <ul class="links">
+          <li>
+            <a class='active' href='/'>Home</a>
+          </li>
+          <li>
+            <a href='/subjects.html'>Subjects</a>
+          </li>
+          <!-- <li>
+            <a href="./store.html">Store</a>
+          </li> -->
+
+          <li>
+            <a href='/aboutus.html'>About Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-center">
+        <article class="hero-info">
+          <h1>
+            One Stop Destination <br />
+            to Knowledge
+          </h1>
+          <p>
+            Welcome to Crystal Explains, an online portal to well organized and
+            easy to understand Material required to ace any competitive exams of
+            India.
+          </p>
+          <br />
+          <button
+            class="openSubjects"
+            onclick="window.open('./subjects.html.html', '_self')"
+          >
+            Start Learning
+          </button>
+          <button class="theme" onclick="changeTheme()">Change Theme</button>
+        </article>
+        <article class="hero-images">
+          <img
+            src="./images/home/light_mode_phone.png"
+            class="phone-img"
+            alt=""
+          />
+          <br />
+          <button onclick="changeTheme()" class="btn theme-button">
+            Change Theme
+          </button>
+        </article>
+      </div>
+    </section>
+
+    <!-- Content -->
+    <div class="content-container" style="display: none">
+      <div class="indian-history-container card-container">
+        <h3 class="card-head-text">Indian History</h3>
+        <p class="card-description">
+          Join us, in our journey across time, to take a look at India through
+          the ages. Along the way, we will be learning about some truly historic
+          moments and meeting some important people, which and who
+          (respectively) have shaped the country, which we call our home.
+        </p>
+        <section class="card-list indian-history-cards"></section>
+      </div>
+      <div class="world-history-container card-container">
+        <h3 class="card-head-text">World History</h3>
+        <p class="card-description">
+          In this section, we will be taking a look at the important moments of
+          the world history in the recent times that directly or indirectly, had
+          impact on the majority of the world.
+        </p>
+        <section class="card-list world-history-cards"></section>
+      </div>
+      <div class="constitution-container card-container">
+        <h3 class="card-head-text">Indian Constitution</h3>
+        <p class="card-description">
+          Constitution of India is the Supreme law of land in India, that
+          establishes a precedent that constitute the legal basis of the
+          fundamental rights, directive principles, and the duties of citizens
+          and lays down the framework that demarcates fundamental political
+          code, structure, procedures, powers, and duties of government
+          institutions.
+        </p>
+        <section class="card-list constitution-cards"></section>
+      </div>
+      <div class="physical-container card-container">
+        <h3 class="card-head-text">Physical Geography</h3>
+        <p class="card-description">
+          Our planet is a dynamic place. The earth's landscape isn’t permanent.
+          It’s changed as continents have shifted and humans have interacted
+          with the environment. And it will continue to change. Join us, in
+          finding out what causes these changes.
+        </p>
+        <section class="card-list physical-cards"></section>
+      </div>
+      <div class="indgeo-container card-container">
+        <h3 class="card-head-text">Indian Geography</h3>
+        <p class="card-description">
+          The geography of India is extremely diverse, with landscape ranging
+          from snow-capped mountain ranges to deserts, plains, hills and
+          plateaus. In this section, we will take a look at the various aspects
+          of Indian Geography.
+        </p>
+        <section class="card-list indgeo-cards"></section>
+      </div>
+      <div class="economics-container card-container">
+        <h3 class="card-head-text">Economics and Indian Economy</h3>
+        <p class="card-description">
+          Economics is the study of people and their choices, while economy is
+          the economics in action. In this section, we will take a look at
+          various topics related economics in general and also take a look at
+          various aspects of Indian Economy.
+        </p>
+        <section class="card-list economics-cards"></section>
+      </div>
+    </div>
+    <footer>
+      <div class="footer">
+        <h3>
+          <a href='/'>Crystal <span>Explains</span></a>
+        </h3>
+        <a href="mailto:crystalexplains@gmail.com">crystalexplains@gmail.com</a>
+      </div>
+    </footer>
+    <script src="./javascript/navigate.js"></script>
+    <script src="./javascript/top-menu.js"></script>
+    <!-- <script src="./javascript/home.js"></script> -->
+  </body>
+</html>
